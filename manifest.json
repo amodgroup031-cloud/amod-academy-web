@@ -1,0 +1,19 @@
+{
+  "name": "AMOD Academy",
+  "short_name": "AMOD Academy",
+  "lang": "fr",
+  "start_url": "/amod-academy-web/",
+  "scope": "/amod-academy-web/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#00512F",
+  "description": "Formations gratuites et certifiantes – AMOD GROUP",
+  "icons": [
+    {
+      "src": "/amod-academy-web/icon-512.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
