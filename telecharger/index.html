@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Télécharger AMOD Academy</title>
+<meta name="description" content="AMOD Academy : 185 cours, 18 domaines, 22 diplômes, en 8 langues. Téléchargez l'application Android ou utilisez-la sur iPhone.">
+<meta property="og:title" content="AMOD Academy – Apprendre · Se former · Évoluer">
+<meta property="og:description" content="185 cours en vidéo, questions, examens et certificats dans votre langue.">
+<meta property="og:image" content="https://amodgroup031-cloud.github.io/amod-academy-web/icon-512.png">
+<link rel="icon" href="../favicon.ico">
+<link rel="apple-touch-icon" href="../apple-touch-icon.png">
+<style>
+  :root { --vert:#0B6B3F; --vert-fonce:#00351F; --or:#E8B83A; --or-fonce:#B8860B; --encre:#14231C; --gris:#5C6B63; --fond:#F6F4EC; --carte:#FFFFFF; --ligne:#E4E0D2; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color:var(--encre); background:var(--fond); line-height:1.5; }
+  a { color:inherit; }
+  .hero { background: linear-gradient(160deg, var(--vert) 0%, var(--vert-fonce) 100%); color:#fff; padding:40px 16px 56px; text-align:center; }
+  .logo { width:120px; height:120px; border-radius:26px; background:#fff; padding:8px; box-shadow:0 10px 30px rgba(0,0,0,.25); }
+  h1 { font-size:2rem; margin:18px 0 4px; letter-spacing:.5px; }
+  .devise { color:var(--or); font-weight:700; letter-spacing:2px; text-transform:uppercase; font-size:.85rem; }
+  .accroche { max-width:560px; margin:14px auto 0; opacity:.92; font-size:1.05rem; }
+  .chiffres { display:flex; flex-wrap:wrap; justify-content:center; gap:10px; margin:26px auto 0; max-width:640px; }
+  .chiffre { background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.18); border-radius:14px; padding:10px 14px; min-width:120px; }
+  .chiffre b { display:block; font-size:1.5rem; color:var(--or); }
+  .chiffre span { font-size:.82rem; opacity:.9; }
+  main { max-width:760px; margin:-30px auto 0; padding:0 16px 40px; }
+  .carte { background:var(--carte); border:1px solid var(--ligne); border-radius:20px; padding:22px; margin-bottom:18px; box-shadow:0 4px 18px rgba(20,35,28,.06); }
+  .carte h2 { margin:0 0 6px; font-size:1.3rem; display:flex; align-items:center; gap:10px; }
+  .carte p.sous { margin:0 0 16px; color:var(--gris); }
+  .bouton { display:flex; align-items:center; justify-content:center; gap:10px; width:100%; padding:16px 18px; border-radius:14px; font-weight:800; font-size:1.08rem; text-decoration:none; border:0; cursor:pointer; }
+  .bouton.or { background:var(--or); color:#2A1E00; }
+  .bouton.vert { background:var(--vert); color:#fff; }
+  .bouton.contour { background:#fff; color:var(--vert); border:2px solid var(--vert); }
+  .bouton + .bouton { margin-top:10px; }
+  .petit { font-size:.85rem; color:var(--gris); text-align:center; margin-top:8px; }
+  ol.etapes { list-style:none; padding:0; margin:18px 0 0; counter-reset:e; }
+  ol.etapes li { counter-increment:e; position:relative; padding:0 0 14px 46px; }
+  ol.etapes li::before { content:counter(e); position:absolute; left:0; top:-2px; width:32px; height:32px; border-radius:50%; background:var(--vert); color:#fff; font-weight:800; display:flex; align-items:center; justify-content:center; }
+  ol.etapes b { color:var(--vert-fonce); }
+  .note { background:#FFF7DD; border:1px solid #F0D98A; border-radius:12px; padding:12px 14px; font-size:.92rem; }
+  .domaines { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px, 1fr)); gap:8px; margin:0; padding:0; list-style:none; }
+  .domaines li { background:var(--fond); border:1px solid var(--ligne); border-radius:12px; padding:10px 12px; font-weight:600; font-size:.95rem; }
+  .qr { display:flex; gap:18px; align-items:center; flex-wrap:wrap; }
+  #qr { background:#fff; padding:10px; border-radius:12px; border:1px solid var(--ligne); width:180px; height:180px; display:flex; align-items:center; justify-content:center; }
+  #qr img, #qr canvas { width:160px !important; height:160px !important; }
+  .qr .texte { flex:1; min-width:200px; }
+  .lien { word-break:break-all; font-weight:700; color:var(--vert); }
+  footer { text-align:center; color:var(--gris); font-size:.85rem; padding:10px 16px 30px; }
+  svg.ic { width:24px; height:24px; flex:none; }
+  @media (max-width:420px) { h1 { font-size:1.6rem; } .chiffre { min-width:44%; } }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <img class="logo" src="../icon-512.png" alt="Logo AMOD Academy">
+    <h1>AMOD Academy</h1>
+    <div class="devise">Apprendre · Se former · Évoluer</div>
+    <p class="accroche">Des formations complètes en vidéo, avec questions, examens et certificats officiels, dans votre langue.</p>
+    <div class="chiffres">
+      <div class="chiffre"><b>185</b><span>cours</span></div>
+      <div class="chiffre"><b>18</b><span>domaines</span></div>
+      <div class="chiffre"><b>22</b><span>diplômes métiers</span></div>
+      <div class="chiffre"><b>8</b><span>langues</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section class="carte" id="android">
+      <h2><svg class="ic" viewBox="0 0 24 24" fill="#0B6B3F"><path d="M17.6 9.48l1.84-3.18a.5.5 0 00-.87-.5l-1.86 3.22a11.4 11.4 0 00-9.42 0L5.43 5.8a.5.5 0 00-.87.5L6.4 9.48A10.8 10.8 0 001 18h22a10.8 10.8 0 00-5.4-8.52zM7 15.25a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5zm10 0a1.25 1.25 0 110-2.5 1.25 1.25 0 010 2.5z"/></svg>Téléphone Android</h2>
+      <p class="sous">Installez l'application sur votre téléphone. Les mises à jour arrivent ensuite toutes seules.</p>
+      <a class="bouton or" href="AMOD-Academy.apk" download>
+        <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#2A1E00" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m0 0l-5-5m5 5l5-5M4 21h16"/></svg>
+        Télécharger l'application
+      </a>
+      <div class="petit">Fichier AMOD-Academy.apk · environ 70 Mo · version 2.13</div>
+      <ol class="etapes">
+        <li><b>Appuyez sur « Télécharger l'application »</b> et attendez la fin du téléchargement.</li>
+        <li><b>Ouvrez le fichier</b> téléchargé (dans la notification ou dans « Mes fichiers » › « Téléchargements »).</li>
+        <li>Si le téléphone le demande, <b>autorisez l'installation</b> : appuyez sur « Paramètres », activez « Autoriser cette source », puis revenez en arrière.</li>
+        <li><b>Appuyez sur « Installer »</b>, puis sur « Ouvrir ». Créez votre compte et commencez.</li>
+      </ol>
+      <div class="note">Le message « application inconnue » est normal : l'application est distribuée directement par AMOD GROUP, en dehors du Play Store. Téléchargez-la uniquement depuis cette page officielle.</div>
+    </section>
+
+    <section class="carte" id="iphone">
+      <h2><svg class="ic" viewBox="0 0 24 24" fill="#0B6B3F"><path d="M16.37 1.43c0 1.14-.42 2.2-1.24 3.04-.86.88-1.9 1.39-3.03 1.3-.03-1.1.47-2.24 1.24-3.03.84-.86 2.06-1.42 3.03-1.31zM20.5 17.1c-.55 1.27-.81 1.84-1.52 2.96-.99 1.56-2.38 3.5-4.1 3.51-1.53.02-1.93-1-4-.99-2.08.01-2.51 1.01-4.04.99-1.72-.02-3.04-1.77-4.03-3.33C.05 15.88-.24 10.9 1.48 8.25c1.22-1.88 3.14-2.98 4.95-2.98 1.84 0 3 1.01 4.52 1.01 1.48 0 2.38-1.01 4.51-1.01 1.61 0 3.32.88 4.54 2.4-3.99 2.19-3.34 7.89.5 9.43z"/></svg>iPhone et ordinateur</h2>
+      <p class="sous">Sur iPhone, AMOD Academy s'utilise directement dans Safari, sans rien télécharger.</p>
+      <a class="bouton vert" href="../">Ouvrir AMOD Academy</a>
+      <ol class="etapes">
+        <li><b>Ouvrez cette page dans Safari</b> et appuyez sur « Ouvrir AMOD Academy ».</li>
+        <li>Appuyez sur le bouton <b>Partager</b> (le carré avec une flèche vers le haut).</li>
+        <li>Choisissez <b>« Sur l'écran d'accueil »</b>, puis « Ajouter ». L'icône AMOD Academy apparaît comme une vraie application.</li>
+      </ol>
+    </section>
+
+    <section class="carte" id="formations">
+      <h2>Les formations</h2>
+      <p class="sous">Chaque cours : leçons vidéo, questions, examen final et certificat dans votre langue.</p>
+      <ul class="domaines">
+        <li>Entrepreneuriat</li><li>Informatique</li><li>Cybersécurité</li><li>Langues</li>
+        <li>Management</li><li>Médecine</li><li>Intelligence artificielle</li><li>Développeur</li>
+        <li>Développement personnel</li><li>Agriculture – Maraîchage</li><li>Droit</li><li>Jurisprudence islamique</li>
+        <li>Banque et finance</li><li>Conduite d'engins lourds</li><li>Superviseur</li><li>Marketing</li>
+        <li>Claude et Claude Code</li><li>Ingénierie (génie civil, mines, électricité)</li>
+      </ul>
+    </section>
+
+    <section class="carte" id="partager">
+      <h2>Partager AMOD Academy</h2>
+      <div class="qr">
+        <div id="qr" aria-label="Code QR de cette page"></div>
+        <div class="texte">
+          <p style="margin-top:0">Faites scanner ce code ou envoyez le lien :</p>
+          <p class="lien" id="lien">https://amodgroup031-cloud.github.io/amod-academy-web/telecharger/</p>
+          <a class="bouton contour" id="wa" href="#">Partager sur WhatsApp</a>
+          <button class="bouton contour" id="copier" type="button">Copier le lien</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>© AMOD GROUP – AMOD Academy · Tous droits réservés</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>
+  var LIEN = "https://amodgroup031-cloud.github.io/amod-academy-web/telecharger/";
+  try { new QRCode(document.getElementById("qr"), { text: LIEN, width: 160, height: 160, colorDark: "#00351F", colorLight: "#ffffff" }); }
+  catch (e) { document.getElementById("qr").textContent = "QR indisponible"; }
+  document.getElementById("wa").href = "https://wa.me/?text=" + encodeURIComponent("Formez-vous avec AMOD Academy : 185 cours en vidéo, examens et certificats dans votre langue. Téléchargez l'application ici : " + LIEN);
+  document.getElementById("copier").addEventListener("click", function () {
+    var b = this;
+    function ok() { b.textContent = "Lien copié ✓"; setTimeout(function () { b.textContent = "Copier le lien"; }, 2000); }
+    if (navigator.clipboard) navigator.clipboard.writeText(LIEN).then(ok, function () { prompt("Copiez le lien :", LIEN); });
+    else prompt("Copiez le lien :", LIEN);
+  });
+</script>
+</body>
+</html>
